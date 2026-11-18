@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Local model">
+  <g fill="none" stroke="#3d6ea8" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="9" y="9" width="18" height="18" rx="5.2" />
+    <path d="M14 9V6.2M22 9V6.2M14 27v2.8M22 27v2.8M9 18H6.2M27 18h2.8" />
+  </g>
+  <g stroke="#8fb8d9" stroke-width="1.5" stroke-linecap="round">
+    <path d="M15.4 18.2 20.8 14.9M15.4 18.2 20.8 21.5" />
+  </g>
+  <g fill="#3d6ea8">
+    <circle cx="15.4" cy="18.2" r="1.95" />
+    <circle cx="20.8" cy="14.9" r="1.95" />
+    <circle cx="20.8" cy="21.5" r="1.95" />
+  </g>
+</svg>

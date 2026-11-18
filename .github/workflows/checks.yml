@@ -1,0 +1,29 @@
+# Runs the checks that need no model file and no network. The suites that start
+# a real server need a llama.cpp binary and a .gguf, so they stay manual.
+
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Syntax
+        run: |
+          node --check index.js
+          node --check client.js
+      - name: Locale files
+        run: |
+          node -e "for (const f of ['en','id']) { const j = require('./locale/' + f + '.json'); if (!j.meta || !j.meta.description) throw new Error('meta missing in ' + f); console.log(f, 'ok') }"
+      - name: Panel renders
+        run: node test/panel-smoke.mjs
+      - name: Tool calls carry their name
+        run: node test/tool-call-check.mjs

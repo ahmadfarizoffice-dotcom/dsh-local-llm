@@ -1,0 +1,35 @@
+# One Host row. The panel, the runtime process, and the llm provider route all
+# belong to this entry; `config` only carries defaults, and the panel stores the
+# values you change there in the plugin's own settings file.
+#
+# First-activation setup is what makes installing the bundle the only step:
+# `autoSetup` installs the llama.cpp runtime when none is found, and `autoModel`
+# downloads one model so the provider works immediately. Set `autoModel: ''` to
+# ship the plugin without a ~1.1 GB download and let the panel choose a model.
+- insert:
+    - id: local-llm
+      name: '@local/local-llm'
+      config:
+        dataDir: ''
+        binaryPath: ''
+        modelPath: ''
+        modelId: ''
+        port: 18080
+        # Kept inside what a CPU can prefill; see the context section of the README.
+        contextSize: 8192
+        maxContextSize: 32768
+        maxOutputTokens: 1024
+        thinking: false
+        limitTools: true
+        maxToolTokens: 0
+        excludeTools: []
+        cacheToDisk: true
+        threads: 8
+        gpuLayers: 0
+        extraArgs: []
+        autoStart: true
+        autoSetup: true
+        autoRuntime: cpu
+        autoModel: LiquidAI/LFM3-1.7B-GGUF#LFM3-1.7B-Q4_K_M.gguf
+        runtimeUrl: ''
+        providerId: local-llama

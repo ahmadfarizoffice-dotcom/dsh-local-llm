@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="The Local model panel: the rail selects it, a grid of model cards shows what is on this computer and what Hugging Face offers, and the chosen model becomes one group in the composer's model selector.">
+  <!-- left rail -->
+  <g fill="none" stroke="#5b7fa6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="34" y="42" width="72" height="216" rx="14" />
+    <rect x="49" y="66" width="42" height="42" rx="11" />
+    <rect x="49" y="186" width="42" height="42" rx="11" />
+  </g>
+  <rect x="49" y="126" width="42" height="42" rx="11" fill="#3d6ea8" />
+  <g fill="none" stroke="#dce9f5" stroke-width="1.8" stroke-linecap="round">
+    <rect x="59" y="137" width="22" height="20" rx="5.5" />
+    <path d="M64 137v-4M76 137v-4M64 157v4M76 157v4" />
+  </g>
+
+  <!-- model grid: four cards, one chosen -->
+  <g fill="none" stroke="#5b7fa6" stroke-width="2" stroke-linejoin="round">
+    <rect x="132" y="58" width="104" height="76" rx="10" />
+    <rect x="250" y="58" width="104" height="76" rx="10" />
+    <rect x="132" y="150" width="104" height="76" rx="10" />
+    <rect x="250" y="150" width="104" height="76" rx="10" />
+  </g>
+  <rect x="132" y="58" width="104" height="76" rx="10" fill="none" stroke="#3d6ea8" stroke-width="2.6" />
+  <g fill="#3d6ea8">
+    <circle cx="142" cy="68" r="4.5" />
+  </g>
+  <g stroke="#9dbdd9" stroke-width="2" stroke-linecap="round">
+    <path d="M142 86h58M142 98h44M142 110h50" />
+    <path d="M260 86h58M260 98h44M260 110h50" />
+    <path d="M142 178h58M142 190h44M142 202h50" />
+    <path d="M260 178h58M260 190h44M260 202h50" />
+  </g>
+  <!-- pager under the grid -->
+  <g fill="none" stroke="#5b7fa6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M132 244h30" />
+    <path d="M162 238l-6 6 6 6" />
+    <path d="M336 250h-30" />
+    <path d="M306 238l6 6-6 6" />
+    <path d="M196 250h72" stroke="#9dbdd9" />
+  </g>
+
+  <!-- hand-off arrow -->
+  <g fill="none" stroke="#5b7fa6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M380 142h52" />
+    <path d="M424 130l12 12-12 12" />
+  </g>
+
+  <!-- composer with the chosen model as one group -->
+  <g fill="none" stroke="#5b7fa6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="452" y="80" width="152" height="140" rx="16" />
+    <path d="M474 112h108M474 134h108M474 156h70" stroke="#9dbdd9" />
+    <rect x="474" y="180" width="76" height="22" rx="11" />
+    <circle cx="568" cy="191" r="11" />
+  </g>
+  <g fill="none" stroke="#9dbdd9" stroke-width="2" stroke-linecap="round">
+    <path d="M563 191h10M568 186v10" />
+  </g>
+  <!-- the local model chip, small, beside the composer seat -->
+  <g fill="none" stroke="#3d6ea8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="474" y="216" width="26" height="24" rx="6" />
+    <path d="M480 216v-4M494 216v-4M480 240v4M494 240v4" />
+  </g>
+</svg>
