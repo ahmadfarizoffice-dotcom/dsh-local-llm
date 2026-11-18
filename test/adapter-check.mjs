@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Offline check of the adapter's wire conversion against a running llama-server.
  * Run: node test/adapter-check.mjs [baseURL]
  */

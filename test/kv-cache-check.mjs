@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Checks the on-disk prompt cache: a saved state must be reused after a restart,
  * and a state written by another model must be refused and discarded.
  * Run: node test/kv-cache-check.mjs <main.gguf> <other.gguf> <llama-server> [port]

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Regression check for the "no first token for 20 minutes" failure.
  *
  * It starts the managed server exactly as the plugin does, with a stored

@@ -1,4 +1,4 @@
-﻿# Local model
+# Local model
 
 Runs a llama.cpp model on this computer and offers it to the Harness as one
 selectable model provider. The left sidebar gains a **Local model** panel whose
