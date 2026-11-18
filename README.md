@@ -1,4 +1,4 @@
-# Local model
+﻿# Local model
 
 Runs a llama.cpp model on this computer and offers it to the Harness as one
 selectable model provider. The left sidebar gains a **Local model** panel whose
@@ -12,7 +12,7 @@ the Hugging Face grid pages twenty repositories at a time.
 One command, then wait for two downloads:
 
 ```
-plugin_manager  action: install_bundle  target: github:<your-name>/<your-repo>
+plugin_manager  action: install_bundle  target: github:ahmadfarizoffice-dotcom/dsh-local-llm
 ```
 
 On first activation the plugin installs the llama.cpp runtime (~25 MB) and the

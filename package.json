@@ -1,7 +1,15 @@
-{
+﻿{
   "name": "@local/local-llm",
   "version": "1.0.0",
   "type": "module",
+  "license": "MIT",
+  "author": "ahmadfarizoffice-dotcom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadfarizoffice-dotcom/dsh-local-llm.git"
+  },
+  "homepage": "https://github.com/ahmadfarizoffice-dotcom/dsh-local-llm#readme",
+  "bugs": { "url": "https://github.com/ahmadfarizoffice-dotcom/dsh-local-llm/issues" },
   "description": "Runs a llama.cpp model on this computer and offers it to the Harness as a selectable model provider, managed from a panel in the left sidebar.",
   "keywords": [
     "dsh-plugin",
