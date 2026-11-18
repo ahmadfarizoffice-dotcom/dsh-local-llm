@@ -27,3 +27,7 @@ jobs:
         run: node test/panel-smoke.mjs
       - name: Tool calls carry their name
         run: node test/tool-call-check.mjs
+      - name: Package installs
+        run: node test/packaging-check.mjs
+      - name: Provisioning stays inert when set up
+        run: node test/provision-check.mjs

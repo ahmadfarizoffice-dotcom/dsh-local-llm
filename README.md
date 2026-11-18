@@ -9,7 +9,13 @@ the Hugging Face grid pages twenty repositories at a time.
 
 ## Install
 
-One command, then wait for two downloads:
+Paste this link into **Plugins → Add plugin**:
+
+```
+https://github.com/ahmadfarizoffice-dotcom/dsh-local-llm
+```
+
+The same install through the agent:
 
 ```
 plugin_manager  action: install_bundle  target: github:ahmadfarizoffice-dotcom/dsh-local-llm
