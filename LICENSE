@@ -1,4 +1,4 @@
-﻿MIT License
+MIT License
 
 Copyright (c) 2026 ahmadfarizoffice-dotcom
 
@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This plugin downloads and runs llama.cpp (https://github.com/ggml-org/llama.cpp),
-which is distributed under the MIT License, and models from Hugging Face under
-whatever licence each model repository states. Neither is bundled with this
-package; both are fetched at the user's request.
